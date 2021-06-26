@@ -14,3 +14,4 @@ const start = () => {
 }
 
 start();
+console.log(2);
