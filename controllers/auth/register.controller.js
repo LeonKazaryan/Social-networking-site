@@ -34,7 +34,7 @@ export default async (req, res) => {
       const registeredUser = await user.save(user)
       //save сохраняет в базу данных
 
-      res.json({ user: registeredUser })
+      res.json({ message: "Succes" })
     } catch (e) {
         console.log(e)
         res.status(500).json({ message: 'Server error' })
